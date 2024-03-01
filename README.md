@@ -1,9 +1,3 @@
-[![](https://img.shields.io/badge/Donate-Bitcoin-blue.svg?style=flat)](https://blockchain.info/address/1MXReD1F4w5SUXK3phLVJ5M8KrXJHfecmZ)
-
-# Sponsored by
-
-[<img src="https://raw.githubusercontent.com/S3cur3Th1sSh1t/WinPwn/master/images/happy_alp.png" width="300" height="300">](https://www.bluebastion.net/) &emsp; &emsp; &emsp;
-
 # WinPwn
 In many past internal penetration tests I often had problems with the existing Powershell Recon / Exploitation scripts due to missing proxy support. I also often ran the same scripts one after the other to get information about the current system and/or the domain. To automate as many internal penetrationtest processes (reconnaissance as well as exploitation) and for the proxy reason I wrote my own script with automatic proxy recognition and integration. 
 The script is mostly based on well-known large other offensive security Powershell projects.
@@ -21,7 +15,7 @@ If you find yourself stuck on a windows system with no internet access - no prob
 
 Functions available after Import:
 * #### `WinPwn` -> Menu to choose attacks:
-![alt text](https://raw.githubusercontent.com/S3cur3Th1sSh1t/WinPwn/master/images/WinPwn.JPG)
+![alt text](https://raw.githubusercontent.com/kdandy/WinPwn/master/images/WinPwn.JPG)
 * #### `Inveigh` -> Executes Inveigh in a new Console window , SMB-Relay attacks with Session management (Invoke-TheHash) integrated
 * #### `SessionGopher` -> Executes Sessiongopher Asking you for parameters
 * #### `Kittielocal` ->
@@ -211,7 +205,7 @@ Options:
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/S3cur3Th1sSh1t/WinPwn.svg)](https://starchart.cc/S3cur3Th1sSh1t/WinPwn)
+[![Stargazers over time](https://starchart.cc/kdandy/WinPwn.svg)]
 
 ## Legal disclaimer:
 Usage of WinPwn for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program. Only use for educational purposes.
